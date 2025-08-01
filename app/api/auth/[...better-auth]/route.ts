@@ -1,6 +1,5 @@
 import { auth } from '@/lib/auth';
-import { toNextJsHandler } from 'better-auth';
 
-const { GET, POST } = toNextJsHandler(auth);
+const { GET, POST } = auth.toNextJsHandler();
 
 export { GET, POST };
