@@ -35,8 +35,14 @@ export default function Home() {
                 Start Brand Analysis
               </Link>
               <Link
-                href="/plans"
+                href="/vln"
                 className="btn-firecrawl-default inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-[10px] text-base font-medium transition-all duration-200 h-12 px-8"
+              >
+                Try VLN Monitor
+              </Link>
+              <Link
+                href="/plans"
+                className="btn-firecrawl-outline inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-[10px] text-base font-medium transition-all duration-200 h-12 px-8"
               >
                 View Pricing
               </Link>
